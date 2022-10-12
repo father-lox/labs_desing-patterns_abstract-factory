@@ -1,7 +1,7 @@
 {
-  "name": "ts-project-template",
+  "name": "software-architecture_lab-1",
   "version": "1.0.0",
-  "description": "",
+  "description": "In this serial labs I learnd design patterns. Lab 1: Abstract Factory",
   "main": "build/index.js",
   "watch": {
     "build": {
@@ -16,8 +16,9 @@
     "start": "npx npm-watch"
   },
   "keywords": [
-    "ts",
-    "template"
+    "patterns",
+    "abstract",
+    "factory"
   ],
   "author": "",
   "license": "GPL-3.0-or-later",

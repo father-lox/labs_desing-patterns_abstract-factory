@@ -1,0 +1,24 @@
+html {
+    font-size: 1px;
+}
+
+.app {
+    background-color: rgb(36, 36, 36);
+    height: 100vh;
+    padding: 20rem 30rem;
+}
+
+.view {
+    height: 100%;
+    width: 100%;
+    border-radius: 20rem;
+    overflow: hidden;
+    box-shadow: #ffce66 0px 0px 5rem, #dfb148 0px 0px 15rem, #bd9338 0px 0px 30rem;
+}
+
+.view__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
