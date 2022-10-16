@@ -10,6 +10,6 @@ export default abstract class WarriorAbstractFactory {
     }
 
     protected randomRank(): number {
-        return Math.round((Math.random() * (1 - 0) + 1) * 100) / 100;
+        return Math.round((Math.random() * (1100 - 1) + 1));
     }
 }

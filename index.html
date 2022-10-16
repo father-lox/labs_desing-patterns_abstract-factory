@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,62 @@
     <title>Galaxy Army</title>
     <link rel="stylesheet" href="./styles/index.css">
 </head>
-<body>
-    <body class="app">
-        <div class="view">
-            <img class="view__image" src="./img/skins/Scout.jpg" alt="Снайпер">
-        </div>
-        <div class="controller">
 
+<body>
+
+    <body>
+        <div class="app">
+            <div class="view">
+                <img class="view__image" src="/img/warrior-siluet.jpg" id="skin">
+            </div>
+            <form id="generator" class="container controller">
+                <div class="row gx-5">
+                    <div class="col d-flex align-items-center justify-content-center">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" checked type="radio" name="race" value="mecha" id="mecha">
+                            <label class="form-check-label" for="mecha">
+                                Mecha
+                            </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="race" value="samurai" id="Samurai">
+                            <label class="form-check-label" for="Samurai">
+                                Samurai
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input required type="text" class="form-control" id="warrior-name" placeholder="Username"
+                                aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <select id="warrior-type" required class="form-select" name="warrior-type">
+                            <option selected value="Stormtrooper">Stormtrooper</option>
+                            <option value="Sniper">Sniper</option>
+                            <option value="Scout">Scout</option>
+                        </select>
+                    </div>
+                    <div class="col d-grid gap-2">
+                        <button class="btn btn-primary" type="submit">Generate</button>
+                    </div>
+                </div>
+            </form>
+            <div class="unit-info">
+                <div class="unit-info__property" id="unit-name"><strong><span></span></strong></div>
+                <div class="unit-info__property" id="unit-weapon">🔫<strong><span></span></strong></div>
+                <div class="unit-info__property" id="unit-rank"><strong><span></span></strong></div>
+                <div class="unit-info__property" id="unit-race"><strong><span ></span></strong></div>
+                <div class="unit-info__property" id="unit-damage">✊<strong><span ></span></strong></div>
+                <div class="unit-info__property" id="unit-health">💊<strong><span ></span></strong></div>
+                <div class="unit-info__property" id="unit-ulta">&#129668;<strong><span ></span></strong></div>
+            </div>
         </div>
+
     </body>
     <script type="module" src="build/index.js"></script>
 </body>
+
 </html>

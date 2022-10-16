@@ -10,6 +10,8 @@ abstract class Warrior {
         readonly weapon: string
     ) {}
 
+    abstract getSpecialParametr(): number;
+
     set rank(battleExperience: number) {
         this._rank += battleExperience;
     }
@@ -27,9 +29,9 @@ abstract class Warrior {
     }
 
     public getRank(): string {
-        if (this._rank < 100) {
+        if (this._rank < 900) {
             return '☆'
-        } else if (this._rank >= 100 && this._rank < 1000) {
+        } else if (this._rank >= 900 && this._rank < 1050) {
             return '★'
         } else {
             return '⍟'

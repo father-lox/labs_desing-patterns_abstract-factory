@@ -19,4 +19,8 @@ export default class Stormtrooper extends Warrior {
     get mobility(): number {
         return this._mobility;
     }
+
+    public getSpecialParametr(): number {
+        return this._mobility;
+    }
 }

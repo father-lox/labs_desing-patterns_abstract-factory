@@ -1,24 +1,53 @@
-html {
-    font-size: 1px;
-}
-
 .app {
-    background-color: rgb(36, 36, 36);
-    height: 100vh;
-    padding: 20rem 30rem;
+  background-color: rgb(36, 36, 36);
+  height: 100vh;
+  padding: 20px 30px;
 }
 
 .view {
-    height: 100%;
-    width: 100%;
-    border-radius: 20rem;
-    overflow: hidden;
-    box-shadow: #ffce66 0px 0px 5rem, #dfb148 0px 0px 15rem, #bd9338 0px 0px 30rem;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: #ffce66 0px 0px 5px, #dfb148 0px 0px 15px, #bd9338 0px 0px 30px;
 }
 
 .view__image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center top;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.controller {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, 70%);
+  min-width: min-content;
+  background-color: white;
+  border-radius: 20px;
+  width: 50%;
+  padding: 8px;
+}
+
+.unit-info {
+  position: absolute;
+  bottom: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  min-width: min-content;
+  background-color: transparent;
+  border-radius: 20px;
+  width: max-content;
+  padding: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  min-width: 16px;
+}
+
+.unit-info__property {
+  display: none;
+  margin: 0 20px;
 }

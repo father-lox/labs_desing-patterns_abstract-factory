@@ -19,4 +19,8 @@ export default class Scout extends Warrior {
     get dataReliability(): number {
         return this._dataReliability;
     }
+
+    public getSpecialParametr(): number {
+        return this._dataReliability;
+    }
 }

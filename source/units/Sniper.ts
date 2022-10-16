@@ -19,4 +19,8 @@ export default class Sniper extends Warrior {
     get accuracy(): number {
         return this._accuracy;
     }
+
+    public getSpecialParametr(): number {
+        return this._accuracy;
+    }
 }
