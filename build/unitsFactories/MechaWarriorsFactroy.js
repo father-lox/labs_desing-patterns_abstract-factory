@@ -6,7 +6,7 @@ import listWepon from '../listWeapons.js';
 export default class MechaWarriorsFactroy extends WarriorAbstractFactory {
     constructor() {
         super(...arguments);
-        this.skinDirectory = '/labs_desing-patterns_abstract-factory/img/skins/Mecha/';
+        this.skinDirectory = '/labs_desing-patterns_abstract-factory/img/skins/mecha/';
         this.race = 'Mecha 🤖';
     }
     getStormtrooper(name) {
