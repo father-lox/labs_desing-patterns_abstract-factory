@@ -6,7 +6,7 @@ import listWepon from '../listWeapons.js';
 export default class SmuraiWarriorsFactroy extends WarriorAbstractFactory {
     constructor() {
         super(...arguments);
-        this.skinDirectory = '../img/skins/samurai/';
+        this.skinDirectory = '/labs_desing-patterns_abstract-factory/img/skins/samurai/';
         this.race = 'Sumurai 👺';
     }
     getStormtrooper(name) {
