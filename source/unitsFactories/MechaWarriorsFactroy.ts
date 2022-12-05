@@ -6,7 +6,7 @@ import Sniper from '../units/Sniper.js';
 import listWepon from '../listWeapons.js';
 
 export default class MechaWarriorsFactroy extends WarriorAbstractFactory {
-    private skinDirectory: string = './img/skins/Mecha/';
+    private skinDirectory: string = '/labs_desing-patterns_abstract-factory/img/skins/Mecha/';
     private race: string = 'Mecha 🤖';
 
     public getStormtrooper(name: string): Warrior {

@@ -6,7 +6,7 @@ import Sniper from '../units/Sniper.js';
 import listWepon from '../listWeapons.js';
 
 export default class SmuraiWarriorsFactroy extends WarriorAbstractFactory {
-    private skinDirectory: string = './img/skins/samurai/';
+    private skinDirectory: string = '/labs_desing-patterns_abstract-factory/img/skins/samurai/';
     private race: string = 'Sumurai 👺';
 
     public getStormtrooper(name: string): Warrior {
